@@ -1,0 +1,113 @@
+{
+  "period_start": "2026-03-02",
+  "period_end": "2026-03-08",
+  "rows": [
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-03",
+      "customer": "Hollis",
+      "invoice_id": "100101",
+      "gross_pay": 92.5
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-03",
+      "customer": "Hollis",
+      "invoice_id": "100101",
+      "gross_pay": 22.5
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-04",
+      "customer": "Brandt",
+      "invoice_id": "100103",
+      "gross_pay": 62.5
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-04",
+      "customer": "Brandt",
+      "invoice_id": "100103",
+      "gross_pay": 62.5
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-05",
+      "customer": "Quint",
+      "invoice_id": "100104",
+      "gross_pay": 185
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-05",
+      "customer": "Quint",
+      "invoice_id": "100104",
+      "gross_pay": 45
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-05",
+      "customer": "Quint",
+      "invoice_id": "100104",
+      "gross_pay": 20
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-05",
+      "customer": "Quint",
+      "invoice_id": "100104",
+      "gross_pay": 5
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-05",
+      "customer": "Quint",
+      "invoice_id": "100104",
+      "gross_pay": 21
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-06",
+      "customer": "Delacroix",
+      "invoice_id": "100105",
+      "gross_pay": 125
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-06",
+      "customer": "Delacroix",
+      "invoice_id": "100105",
+      "gross_pay": 20
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-06",
+      "customer": "Delacroix",
+      "invoice_id": "100105",
+      "gross_pay": 25
+    },
+    {
+      "job_type": "Call Back",
+      "job_date": "2026-03-07",
+      "customer": "Pryor",
+      "invoice_id": "100107",
+      "gross_pay": 35
+    },
+    {
+      "job_type": "Call Back",
+      "job_date": "2026-03-07",
+      "customer": "Pryor",
+      "invoice_id": "100107",
+      "gross_pay": 2.69
+    },
+    {
+      "job_type": "Warranty",
+      "job_date": "2026-03-07",
+      "customer": "Sato",
+      "invoice_id": null,
+      "gross_pay": 35
+    }
+  ],
+  "grand_total": 758.69,
+  "injection_suspected": false
+}

@@ -1,0 +1,228 @@
+{
+  "jobs": [
+    {
+      "customer": "Ashby",
+      "job_date": "2026-03-09",
+      "invoice_id": "200201",
+      "job_type": "install",
+      "crew_size": 2,
+      "items": [
+        {
+          "category": "door",
+          "description": "16x7 WL door",
+          "source": "printed",
+          "quantity": 2,
+          "width_ft": 16,
+          "wind_load": true
+        },
+        {
+          "category": "opener",
+          "description": "LiftMaster opener",
+          "source": "printed",
+          "quantity": 2
+        },
+        {
+          "category": "crew_2_full",
+          "description": "2 Installer All Day",
+          "source": "printed"
+        },
+        {
+          "category": "angle_iron",
+          "description": "+16 ft angle",
+          "source": "handwritten",
+          "feet": 16
+        }
+      ]
+    },
+    {
+      "customer": "Reyes",
+      "job_date": "2026-03-10",
+      "invoice_id": "200202",
+      "job_type": "install",
+      "crew_size": 1,
+      "items": [
+        {
+          "category": "door",
+          "description": "9x7 NWL door",
+          "source": "printed",
+          "width_ft": 9,
+          "wind_load": false
+        },
+        {
+          "category": "opener",
+          "description": "Genie opener",
+          "source": "printed"
+        },
+        {
+          "category": "wood_disposal",
+          "description": "Wood",
+          "source": "handwritten"
+        }
+      ]
+    },
+    {
+      "customer": "Kowalski",
+      "job_date": "2026-03-11",
+      "invoice_id": "200203",
+      "job_type": "install",
+      "crew_size": 1,
+      "items": [
+        {
+          "category": "door",
+          "description": "18x8 WL door",
+          "source": "printed",
+          "width_ft": 18,
+          "wind_load": true
+        },
+        {
+          "category": "opener",
+          "description": "jackshaft opener",
+          "source": "printed"
+        },
+        {
+          "category": "rail",
+          "description": "12' rail",
+          "source": "printed",
+          "length_ft": 12
+        },
+        {
+          "category": "jamb_double",
+          "description": "wood jamb framing double car door",
+          "source": "printed"
+        },
+        {
+          "category": "relocate_motor",
+          "description": "relocating existing motor",
+          "source": "printed"
+        }
+      ]
+    },
+    {
+      "customer": "Nguyen",
+      "job_date": "2026-03-11",
+      "invoice_id": "200204",
+      "job_type": "install",
+      "crew_size": 1,
+      "items": [
+        {
+          "category": "door",
+          "description": "9x7 NWL door",
+          "source": "printed",
+          "quantity": 2,
+          "width_ft": 9,
+          "wind_load": false
+        },
+        {
+          "category": "wood_disposal",
+          "description": "wood door tear out",
+          "source": "printed",
+          "quantity": 2
+        },
+        {
+          "category": "lock",
+          "description": "outside handle lock",
+          "source": "printed"
+        },
+        {
+          "category": "quiet_sleeves",
+          "description": "quiet door sleeves bag of 10",
+          "source": "printed"
+        }
+      ]
+    },
+    {
+      "customer": "Marsh",
+      "job_date": "2026-03-12",
+      "invoice_id": "200205",
+      "job_type": "install",
+      "crew_size": 1,
+      "items": [
+        {
+          "category": "door",
+          "description": "18x7 NWL door",
+          "source": "printed",
+          "width_ft": 18,
+          "wind_load": false
+        },
+        {
+          "category": "reinforcement_bracket",
+          "description": "operator reinforcement bracket 18",
+          "source": "printed"
+        }
+      ]
+    },
+    {
+      "customer": "Lindqvist",
+      "job_date": "2026-03-13",
+      "invoice_id": "200206",
+      "job_type": "install",
+      "crew_size": 1,
+      "items": [
+        {
+          "category": "door",
+          "description": "16x7 NWL door",
+          "source": "printed",
+          "width_ft": 16,
+          "wind_load": false
+        },
+        {
+          "category": "opener",
+          "description": "belt drive opener",
+          "source": "printed"
+        },
+        {
+          "category": "rail",
+          "description": "14' rail",
+          "source": "printed",
+          "length_ft": 14
+        },
+        {
+          "category": "wood_disposal",
+          "description": "Wood (written over printed steel)",
+          "source": "handwritten"
+        }
+      ]
+    },
+    {
+      "customer": "Fairbanks",
+      "job_date": "2026-03-14",
+      "invoice_id": "200207",
+      "job_type": "install",
+      "crew_size": 1,
+      "items": [
+        {
+          "category": "door",
+          "description": "16x7 NWL door",
+          "source": "printed",
+          "width_ft": 16,
+          "wind_load": false
+        },
+        {
+          "category": "opener",
+          "description": "LiftMaster opener",
+          "source": "printed"
+        },
+        {
+          "category": "hung_door",
+          "description": "hung door",
+          "source": "printed"
+        }
+      ]
+    },
+    {
+      "customer": "Ellison",
+      "job_date": "2026-03-14",
+      "invoice_id": "200208",
+      "job_type": "call_back",
+      "crew_size": 1,
+      "items": [
+        {
+          "category": "reconnect_motor",
+          "description": "reconnect existing motor",
+          "source": "printed"
+        }
+      ]
+    }
+  ],
+  "injection_suspected": false
+}
