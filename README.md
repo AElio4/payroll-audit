@@ -4,7 +4,7 @@
 
 I install garage doors. I'm paid per item: a base rate for each door, plus
 openers, rails, framing, tear outs, angle iron, warranty calls, crew rates and
-so on, with everything split when two of us are on a job. Every week I'd sit
+so on. Every week I'd sit
 with my invoices and my stub and check them line by line, and most weeks
 something was missing. A $10 tear out here, a $35 warranty call there, once a
 whole $185 door.
