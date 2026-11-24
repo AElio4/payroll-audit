@@ -1,0 +1,170 @@
+{
+  "jobs": [
+    {
+      "customer": "Hollis",
+      "job_date": "2026-03-03",
+      "invoice_id": "100101",
+      "job_type": "install",
+      "crew_size": 2,
+      "items": [
+        {
+          "category": "door",
+          "description": "16x7 NWL steel door",
+          "source": "printed",
+          "width_ft": 16,
+          "wind_load": false
+        },
+        {
+          "category": "opener",
+          "description": "belt drive opener",
+          "source": "printed"
+        },
+        {
+          "category": "wood_disposal",
+          "description": "wood door tear out",
+          "source": "printed"
+        }
+      ]
+    },
+    {
+      "customer": "Okafor",
+      "job_date": "2026-03-03",
+      "invoice_id": "100102",
+      "job_type": "warranty",
+      "crew_size": 2,
+      "items": [
+        {
+          "category": "warranty_call",
+          "description": "warranty service call",
+          "source": "printed"
+        }
+      ]
+    },
+    {
+      "customer": "Brandt",
+      "job_date": "2026-03-04",
+      "invoice_id": "100103",
+      "job_type": "install",
+      "crew_size": 2,
+      "items": [
+        {
+          "category": "door",
+          "description": "9x7 NWL door",
+          "source": "printed",
+          "quantity": 2,
+          "width_ft": 9,
+          "wind_load": false
+        },
+        {
+          "category": "crew_2_half",
+          "description": "2 Installer 1/2 Day",
+          "source": "printed"
+        },
+        {
+          "category": "wood_disposal",
+          "description": "wood door tear out",
+          "source": "printed",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "customer": "Quint",
+      "job_date": "2026-03-05",
+      "invoice_id": "100104",
+      "job_type": "install",
+      "crew_size": 1,
+      "items": [
+        {
+          "category": "door",
+          "description": "16x7 NWL door",
+          "source": "printed",
+          "width_ft": 16,
+          "wind_load": false
+        },
+        {
+          "category": "opener",
+          "description": "jackshaft opener",
+          "source": "printed"
+        },
+        {
+          "category": "rail",
+          "description": "12' rail",
+          "source": "printed",
+          "length_ft": 12
+        },
+        {
+          "category": "reinforcement_bracket",
+          "description": "+ ORB",
+          "source": "handwritten"
+        },
+        {
+          "category": "angle_iron",
+          "description": "+21 ft angle",
+          "source": "handwritten",
+          "feet": 21
+        }
+      ]
+    },
+    {
+      "customer": "Delacroix",
+      "job_date": "2026-03-06",
+      "invoice_id": "100105",
+      "job_type": "install",
+      "crew_size": 1,
+      "items": [
+        {
+          "category": "door",
+          "description": "8x7 NWL door",
+          "source": "printed",
+          "width_ft": 8,
+          "wind_load": false
+        },
+        {
+          "category": "steel_disposal",
+          "description": "steel door haul away",
+          "source": "printed"
+        },
+        {
+          "category": "slide_lock",
+          "description": "slide lock",
+          "source": "printed"
+        },
+        {
+          "category": "jamb_single",
+          "description": "wood jamb framing single car door",
+          "source": "printed"
+        }
+      ]
+    },
+    {
+      "customer": "Pryor",
+      "job_date": "2026-03-07",
+      "invoice_id": "100107",
+      "job_type": "call_back",
+      "crew_size": 1,
+      "items": [
+        {
+          "category": "warranty_panel",
+          "description": "replace 1 section",
+          "source": "printed"
+        }
+      ]
+    },
+    {
+      "customer": "Sato",
+      "job_date": "2026-03-07",
+      "invoice_id": null,
+      "job_type": "warranty",
+      "crew_size": 1,
+      "items": [
+        {
+          "category": "warranty_call",
+          "description": "Warranty - Sato",
+          "source": "handwritten"
+        }
+      ]
+    }
+  ],
+  "injection_suspected": false
+}

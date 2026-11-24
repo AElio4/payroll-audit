@@ -1,0 +1,145 @@
+# Pay rules for one installer's pay chart.
+#
+# Every dollar amount the tool computes comes from this file, never from the
+# LLM. The model only reads the paperwork; this file and rules.py decide pay.
+#
+# Amounts are for the whole job. On a multi-tech job each item is split evenly
+# across the crew (see [policy]).
+
+[door]
+# Base pay for a door install, by width and wind load rating.
+small_max_width_ft = 12          # "12' and under"
+small_wind_load = 155
+small_non_wind_load = 125
+large_wind_load = 230            # over 12'
+large_non_wind_load = 185
+
+[buildout]
+# Wood framing build-out (jamb or spring pad), by door width.
+small = 20
+large = 25
+
+[rail]
+# Opener rails: 10', 12' and 14' are paid. 7' rails are not.
+paid_lengths_ft = [10, 12, 14]
+rate = 20
+
+# Flat-rate items. `label` is how the item is written in the correction email.
+[items.opener]
+rate = 45
+label = "opener"
+
+[items.reinforcement_bracket]
+rate = 5
+label = "operator reinforcement bracket"
+
+[items.lock]
+rate = 5
+label = "lock"
+
+[items.hung_door]
+rate = 5
+label = "hung door"
+
+[items.quiet_sleeves]
+rate = 5
+label = "quiet door sleeves"
+
+[items.jamb_single]
+rate = 20
+label = "wood jamb framing single"
+
+[items.jamb_double]
+rate = 25
+label = "wood jamb framing double"
+
+[items.jamb_partial]
+rate = 10
+label = "wood jamb partial / spring pad"
+
+[items.relocate_motor]
+rate = 25
+label = "relocate existing motor"
+
+[items.wood_disposal]
+rate = 10
+label = "wood door tear out"
+
+[items.install_cancel]
+rate = 50
+label = "install cancel"
+
+[items.warranty_call]
+rate = 35
+label = "warranty"
+
+[items.warranty_panel]
+rate = 35
+label = "warranty panel"
+
+[items.angle_iron]
+rate = 1          # per foot
+per = "foot"
+label = "angle iron"
+
+# Items that show up on paperwork but are not paid.
+[items.rail_7ft]
+rate = 0
+label = "7' rail"
+
+[items.reconnect_motor]
+rate = 0
+label = "reconnect existing motor"
+
+[items.steel_disposal]
+rate = 0
+label = "steel door haul away"
+
+[items.slide_lock]
+rate = 0
+label = "slide lock"
+
+[items.warranty_upgrade]
+rate = 0
+label = "warranty upgrade"
+
+[items.crew_1_half]
+rate = 0
+label = "1 man 1/2"
+
+# Crew rates are paid once per job and split among the crew.
+[items.crew_2_half]
+rate = 60
+label = "2 man 1/2"
+crew = true
+
+[items.crew_2_full]
+rate = 120
+label = "2 man all day"
+crew = true
+
+[items.crew_3_half]
+rate = 90
+label = "3 man 1/2"
+crew = true
+
+[items.crew_3_full]
+rate = 180
+label = "3 man all day"
+crew = true
+
+[policy]
+# Multi-tech jobs: every item is split evenly between the techs.
+split_evenly = true
+
+# OPEN QUESTION (waiting on payroll): on a 2-tech warranty call, does each
+# tech get the full $35 ("each") or is it split like everything else ("split")?
+warranty_two_tech = "each"
+
+# OPEN QUESTION (waiting on payroll): is wood door tear out paid per door
+# ("per_door") or once per job ("per_job")?
+tear_out_basis = "per_door"
+
+# Paid rows that match nothing and are at or under this amount are treated as
+# small extras (e.g. a parts bonus on a call back). They are not flagged.
+small_extra_max = 5.00

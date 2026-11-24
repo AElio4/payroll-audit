@@ -1,0 +1,197 @@
+{
+  "period_start": "2026-03-09",
+  "period_end": "2026-03-15",
+  "rows": [
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-09",
+      "customer": "Ashby",
+      "invoice_id": "200201",
+      "gross_pay": 115
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-09",
+      "customer": "Ashby",
+      "invoice_id": "200201",
+      "gross_pay": 115
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-09",
+      "customer": "Ashby",
+      "invoice_id": "200201",
+      "gross_pay": 22.5
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-09",
+      "customer": "Ashby",
+      "invoice_id": "200201",
+      "gross_pay": 22.5
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-09",
+      "customer": "Ashby",
+      "invoice_id": "200201",
+      "gross_pay": 60
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-09",
+      "customer": "Ashby",
+      "invoice_id": "200201",
+      "gross_pay": 8
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-10",
+      "customer": "Reyes",
+      "invoice_id": "200202",
+      "gross_pay": 125
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-10",
+      "customer": "Reyes",
+      "invoice_id": "200202",
+      "gross_pay": 45
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-11",
+      "customer": "Kowalski",
+      "invoice_id": "200203",
+      "gross_pay": 230
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-11",
+      "customer": "Kowalski",
+      "invoice_id": "200203",
+      "gross_pay": 45
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-11",
+      "customer": "Kowalski",
+      "invoice_id": "200203",
+      "gross_pay": 20
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-11",
+      "customer": "Kowalski",
+      "invoice_id": "200203",
+      "gross_pay": 25
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-11",
+      "customer": "Kowalski",
+      "invoice_id": "200203",
+      "gross_pay": 25
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-11",
+      "customer": "Nguyen",
+      "invoice_id": "200204",
+      "gross_pay": 125
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-11",
+      "customer": "Nguyen",
+      "invoice_id": "200204",
+      "gross_pay": 125
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-11",
+      "customer": "Nguyen",
+      "invoice_id": "200204",
+      "gross_pay": 10
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-11",
+      "customer": "Nguyen",
+      "invoice_id": "200204",
+      "gross_pay": 10
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-11",
+      "customer": "Nguyen",
+      "invoice_id": "200204",
+      "gross_pay": 5
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-11",
+      "customer": "Nguyen",
+      "invoice_id": "200204",
+      "gross_pay": 5
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-12",
+      "customer": "Marsh",
+      "invoice_id": "200205",
+      "gross_pay": 5
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-13",
+      "customer": "Lindqvist",
+      "invoice_id": "200206",
+      "gross_pay": 185
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-13",
+      "customer": "Lindqvist",
+      "invoice_id": "200206",
+      "gross_pay": 45
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-13",
+      "customer": "Lindqvist",
+      "invoice_id": "200206",
+      "gross_pay": 20
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-14",
+      "customer": "Fairbanks",
+      "invoice_id": "200207",
+      "gross_pay": 185
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-14",
+      "customer": "Fairbanks",
+      "invoice_id": "200207",
+      "gross_pay": 45
+    },
+    {
+      "job_type": "Door Install",
+      "job_date": "2026-03-14",
+      "customer": "Fairbanks",
+      "invoice_id": "200207",
+      "gross_pay": 5
+    },
+    {
+      "job_type": "Call Back",
+      "job_date": "2026-03-14",
+      "customer": "Ellison",
+      "invoice_id": "200208",
+      "gross_pay": 2.69
+    }
+  ],
+  "grand_total": 1630.69,
+  "injection_suspected": false
+}
